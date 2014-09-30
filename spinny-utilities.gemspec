@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Spinny::Utilities::VERSION
   spec.authors       = ["Marie Markwell"]
   spec.email         = ["me@marie.so"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "Utilities for the spinny gem."
+  spec.description   = spec.description
+  spec.homepage      = "https://gitlab.com/spinny/spinny-utilities"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
