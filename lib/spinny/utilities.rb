@@ -1,4 +1,5 @@
 require 'spinny/utilities/version'
+require 'debug_inspector'
 
 module Spinny
   module Utilities
