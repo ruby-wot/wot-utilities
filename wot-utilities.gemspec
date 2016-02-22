@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'spinny/utilities/version'
+require 'wot/utilities/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "spinny-utilities"
-  spec.version       = Spinny::Utilities::VERSION
+  spec.name          = "wot-utilities"
+  spec.version       = Wot::Utilities::VERSION
   spec.authors       = ["Marie Markwell"]
   spec.email         = ["me@marie.so"]
-  spec.summary       = "Utilities for the spinny gem."
+  spec.summary       = "Utilities for the Wot gem."
   spec.description   = spec.description
-  spec.homepage      = "https://gitlab.com/spinny/spinny-utilities"
+  spec.homepage      = "https://github.com/wot/wot-utilities"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

@@ -1,7 +1,7 @@
-require 'spinny/utilities/version'
+require 'wot/utilities/version'
 require 'debug_inspector'
 
-module Spinny
+module Wot
   module Utilities
     def self.caller_binding(offset=0)
       RubyVM::DebugInspector.open {|i| i.frame_binding(3 + offset) }
@@ -15,7 +15,7 @@ module Spinny
           method.inspect
         end
 
-      Spinny::Utilities.caller_binding(offset).eval("method(#{method})")
+      Wot::Utilities.caller_binding(offset).eval("method(#{method})")
     end
   end
 end
